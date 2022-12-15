@@ -10,8 +10,8 @@
   },
   "dependencies": {
     "@web3sdkio/auth": "^1",
-    "@web3sdkio/react": "^3",
-    "@web3sdkio/sdk": "^3",
+    "@web3sdkio/react": "^2.0.1",
+    "@web3sdkio/sdk": "^1.0.12",
     "ethers": "^5.7.0",
     "next": "12.2.0",
     "next-auth": "^4.10.3",

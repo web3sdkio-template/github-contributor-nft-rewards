@@ -5,7 +5,7 @@ This project demonstrates how you can build a full-stack web3 application that a
 ## Tools:
 
 - [React SDK](https://docs.web3sdk.io/react): To access the connected wallet, switch the user's network, and claim an NFT from our Edition Drop collection.
-- [Auth](https://portal.web3sdk.io/auth): To authenticate the user and verify them on the backend.
+- [Auth](https://docs.web3sdk.io/auth): To authenticate the user and verify them on the backend.
 
 ## Using This Template
 
@@ -32,10 +32,10 @@ NEXTAUTH_SECRET=
 
 ## How It Works
 
-Using [Auth](https://portal.web3sdk.io/auth), we first authenticate the user using their web3 wallets which we later use on the backend to generate a signature. We also use next auth to authenticate users with their GitHub account, so that we can check if they have contributed to the repository.
+Using [Auth](https://docs.web3sdk.io/auth), we first authenticate the user using their web3 wallets which we later use on the backend to generate a signature. We also use next auth to authenticate users with their GitHub account, so that we can check if they have contributed to the repository.
 
 In the api we get the web3sdkio user and the next auth user. We first check if both the users are present then we validate if the user has contributed to the repository. If the user has contributed, we generate a signature using the user's private key and send it back to the frontend. The frontend then uses the signature to mint the NFT.
 
 ## Join our Discord!
 
-For any questions, suggestions, join our discord at [https://discord.gg/web3sdkio](https://discord.gg/web3sdkio).
+For any questions, suggestions, join our discord at [https://discord.gg/n33UhsfUKB](https://discord.gg/n33UhsfUKB).
